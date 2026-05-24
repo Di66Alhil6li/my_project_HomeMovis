@@ -1,0 +1,33 @@
+.hedr img {
+    text-align: center;
+    width: 180px;
+}
+
+
+.hedr {
+    text-align: center;
+    background-color: #f3f3e0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    gap: 33px;
+    height: auto;
+    padding: 15px 0;
+}
+
+.pag button {
+    width: 200px;
+    background-color: #f3f3e0;
+    border: none;
+    height: 40px;
+    margin: 2px 35px;
+    color: #133e87;
+}
+
+.pag button:hover {
+    background-color: #133e87;
+    border-radius: 15px;
+    color: #f3f3e0;
+}

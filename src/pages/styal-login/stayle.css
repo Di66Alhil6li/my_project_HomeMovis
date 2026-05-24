@@ -1,0 +1,78 @@
+@font-face {
+    font-family: web_mo;
+    src: url("../font/alfont_com_خط-جنات-عريض.ttf");
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: web_mo;
+}
+
+body {
+    background-image: url('./backgrund_web/bak2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conte {
+    background-color: rgb(225, 225, 239);
+    text-align: center;
+    margin: 10% 35% 0 35%;
+    padding: 10px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    background-color: #ffffffa8;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    position: fixed;
+}
+
+.sty-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: inherit;
+}
+
+.logo img {
+    width: 70%;
+}
+
+#use,
+#pas {
+    border-radius: 10px;
+    border: #060fb3 2px solid;
+    padding: 4px;
+    width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.btun button {
+    width: 120px;
+    background-color: #133e87;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: none;
+    text-align: center;
+}
+
+.btun button:hover {
+    border: #7bacfa solid 2px;
+}
+
+#mst {
+    background-color: #82a4cd;
+    margin: -15px 30px 10px;
+    height: 5px;
+
+}

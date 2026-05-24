@@ -1,0 +1,59 @@
+@font-face {
+    font-family: web_mo;
+    src: url("./font/alfont_com_خط-جنات-عريض.ttf");
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: web_mo;
+}
+
+body {
+    backdrop-filter: blur(10px);
+    background-color: #ffffff62;
+
+}
+
+.Card {
+    margin: 20px;
+    width: 250px;
+    background-color: #f3f3e0;
+    text-align: center;
+    height: auto;
+    border-radius: 30px;
+    color: #133e87;
+    font-size: 13px;
+}
+
+.Card img {
+    width: 250px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 350px;
+    box-shadow: 0 3px #00000082;
+}
+
+.wit:hover {
+    background-color: #087224;
+    color: #f3f3e0;
+    border-radius: 5px;
+}
+
+.down:hover {
+    background-color: #710911;
+    color: #f3f3e0;
+    border-radius: 5px;
+}
+
+/* +++++++++++++++++++++++++++++++++++ */
+
+.fle_kid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    align-content: space-around;
+    gap: 15px;
+}

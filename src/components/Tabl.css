@@ -1,0 +1,29 @@
+.TA {
+    text-align: center;
+    margin: 10% 0;
+}
+
+.TA tr th {
+    height: 280px;
+    border-bottom-color: "none";
+}
+
+.TA tr th img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+
+
+
+.TA tr td button {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Cont {
+    text-align: center;
+    background-color: rgb(118, 118, 125);
+    margin-left: auto;
+}
