@@ -10,6 +10,7 @@ export default function Login() {
 
     let login = useNavigate();
     let [UseDat, setData] = useState({ nam: "", Passw: "" });
+    //this datauser
     let Ath = [
         { user: "Diaa", pass: "100" },
         { user: "azooz", pass: "200" },
